@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<perusahaan>
+	<anggota>
+		<nama>Raden Rifal Ardiansyah</nama>
+		<noTelp>08158447824</noTelp>
+	</anggota>
+	<anggota>
+		<nama>Haryati Dian Warsari</nama>
+		<noTelp>087749491335</noTelp>
+	</anggota>
+	<anggota>
+		<nama>Hudia Zulhamdi</nama>
+		<noTelp>085677889900</noTelp>
+	</anggota>
+	<anggota>
+		<nama>OctavianPangestu</nama>
+		<noTelp>083877885566</noTelp>
+	</anggota>
+	<anggota>
+		<nama>M. Luthfi Azri</nama>
+		<noTelp>085712345578</noTelp>
+	</anggota>
+	<anggota>
+		<nama>Dwi Pebriyanti</nama>
+		<noTelp>081577881122</noTelp>
+	</anggota>
+	<anggota>
+		<nama>Nika Agrida</nama>
+		<noTelp>083890123456</noTelp>
+	</anggota>
+	<anggota>
+		<nama>Muhammad Ambrikom Tidar</nama>
+		<noTelp>087712345678</noTelp>
+	</anggota>
+</perusahaan>

@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Bagian data lengkap ------------------------------------------------------------------------------------------------------ */
+#container								{margin:0 auto; height:auto; width:100%; max-width:1366px; min-width:768px;}
+/* Usable class/ hidden class */
+.lowercase                  			{text-transform:lowercase;}
+.uppercase                 				{text-transform:uppercase;}
+.relative                   			{position:relative;}
+.absolute                   			{position:absolute;}
+.nomargin                   			{margin:0px !important;}
+.clear									{clear: both !important; display:block; } 
+
+/* Bagian data lengkap ------------------------------------------------------------------------------------------------------ */
+/* Header */
+#header									{width:100%; height:auto; z-index:99999; background:#FFF; margin:0 auto; 
+										 max-width:1366px;}
+#header .containerHeader				{margin:0px auto; padding:0; position:relative; width:1140px; height:100px;}
+#header .headerLogo						{width:30%; float:left;}
+#header .headerLogo .logo				{height:100px; position:relative; width:100%;}		
+#header .headerLogo .logoImage			{position:absolute; top:0px; bottom:0px; margin:auto;}
+
+/* Bagian data lengkap ------------------------------------------------------------------------------------------------------ */
+/* Header menu */
+#header .headerMenu						{float:right; z-index:9999; position:relative;}
+#header .headMenu						{text-transform:uppercase; color:#444; list-style-type:none; 
+										 font:bold 14px/100px "Arial"; float:right;}
+#header .headMenu a						{display:block; width:100%; height:100%; color:#444;}
+#header .headMenu li					{display:block; float:left; height:100px; padding:0 15px; position:relative;
+                              			 -webkit-transition:all 0.2s ease-in-out;
+                              			 -moz-transition:all 0.2s ease-in-out;
+                              			 -o-transition:all 0.2s ease-in-out;
+                              			 -ms-transition:all 0.2s ease-in-out;
+                              			 transition:all 0.2s ease-in-out;}
+#header .headMenu li:hover          	{color:#FFF; background:#008FD5;}
+#header .headMenu li:hover a        	{color:#FFF;}	
+#header .headMenu li:hover .headSubMenu	{z-index:9999px; top:100px; opacity:1;}
+#header .headerBottom					{width:100% !important; height:20px; background-color:#008FD5; margin:auto;}
+#header #waktu							{margin-left:8%; padding-top:2px; color:#FFF; position:relative;}
+
+/* Bagian data lengkap ------------------------------------------------------------------------------------------------------ */
+/* Sub Menu */
+#header .headSubMenu					{position:absolute; left:0; top:-9999px; margin:0px; background:#008FD5; opacity:0;
+										 font:bold 12px/50px "Arial";
+                              			 -webkit-transition: opacity 0.2s ease-in-out;
+                              			 -moz-transition: opacity 0.2s ease-in-out;
+                              			 -o-transition: opacity 0.2s ease-in-out;
+                              			 -ms-transition: opacity 0.2s ease-in-out;
+                              			 transition: opacity 0.2s ease-in-out;}
+#header .headSubMenu a   	           	{display:block; width:100%; height:100%; color:#444;}
+#header .headSubMenu li             	{display:block; width:150px !important; height:50px !important;}
+#header .headSubMenu li:hover       	{background:#5DB8E5;}
+
+/* Bagian data lengkap ------------------------------------------------------------------------------------------------------ */
+/* Content lengkap */
+#content					            {width:100% !important; position:relative; padding:0px;}
+
+/* Bagian data index/ beranda =============================================================================================== */
+/* Content */
+#content .contentSlider					{width:100% !important; position:relative; padding:0px; margin:0 auto; max-width: 1440px;}
+#content .subContent					{width:100% !important; position:absolute; padding:0px; margin:0 auto; 
+										 z-index:1000; top:400px; left:0; right:0; color:#FFF;}
+
+/* Slider */
+#content .contentSlider .slider			{width:100% !important; max-height:450px !important; position:relative;}
+
+/* Deskripsi */
+#content .subContent .containerSubContent
+		 .deskripsi .column				{display:inline; float:left; margin-left:10px; margin-right:10px; width:265px;}
+#content .subContent .containerSubContent	
+										{margin:0 auto; padding:0; position:relative; width:1140px;}
+#content .deskripsi .desk1              {background-color:rgba(0, 143, 213, 0.9); padding:0 15px; text-align:center;
+                              			 -webkit-box-sizing:border-box; -moz-box-sizing:border-box; 
+										 box-sizing:border-box;}
+#content .deskripsi .desk2              {background-color:rgba(92, 184, 229, 0.9); padding:0 15px; text-align: center;
+                              			 -webkit-box-sizing:border-box; -moz-box-sizing:border-box; 
+										 box-sizing:border-box;}
+#content .deskripsi .desk1 img, 
+				    .desk2 img      	{margin-top:50px; margin-bottom:20px;}
+
+#content .deskripsi .deskJudul          {font:bold 16px "Arial"; padding-bottom:15px; border-bottom:1px solid #FFF; 				 										 margin-bottom: 25px;}
+#content .deskripsi .deskDetail         {font:bold 12px/22px "Arial"; margin-bottom:25px;}
+#content .deskripsi .deskMore1          {width:45px; height:45px; border:5px solid #FFF; border-bottom:none;  
+                              			 display: block; margin: 0 auto; 
+										 background:#5DB8E5 url('../images/all/plus.png') 50% 50% no-repeat;}
+#content .deskripsi .deskMore2          {width:45px; height:45px; border:5px solid #FFF; border-bottom:none; 
+                             			 display:block; margin:0 auto; 
+										 background:#008FD5 url('../images/all/plus.png') 50% 50% no-repeat;}
+#content .deskripsi .deskMore1:hover    {background:#008FD5 url('../images/all/plus.png') 50% 50% no-repeat;}
+#content .deskripsi .deskMore2:hover    {background:#5DB8E5 url('../images/all/plus.png') 50% 50% no-repeat;}
+#content .deskripsi 
+		 .deskMore1, .deskMore2    		{-webkit-transition: all 0.2s ease-in-out;
+                              			 -moz-transition: all 0.2s ease-in-out;
+                              			 -o-transition: all 0.2s ease-in-out;
+                              			 -ms-transition: all 0.2s ease-in-out;
+                              			 transition: all 0.2s ease-in-out;}
+										 
+/* Content Title/Judul  */
+#content .column1						{margin:0 auto; padding:0; position:relative; width:1140px;}
+#content .column2						{margin:0 10px; float:left; width:550px; height:100%;}
+#content .column3						{height:100%; padding:0; position:relative; 
+										 width:83%; margin-left:115px; margin-right:115px; margin:auto;}
+
+#content .column1 .eoJudulContent       {width:auto; height:30px; margin:50px 10px 0 10px; 
+										 background:transparent url('../images/all/separator.png') 0 50% repeat-x; 
+                              			 text-align:center;}
+#content .column1 .eoJudul 			  	{width:430px; height:30px; text-transform:uppercase; font:bold 22px/30px "Arial"; 			 										 color:#333; background:#FFF; margin:0 auto;}
+#content .column1 .eoSubJudul 			{text-align:center; color:#444; line-height:30px; margin-top:10px;
+										 margin-bottom:40px;}
+									 
+/* Content Pelayanan / Service */
+#pelayanan								{position:relative; width:100%; height:auto;}
+#pelayanan .service                    	{border-bottom:1px solid #E6E6E6; padding-bottom:40px; margin-bottom:40px;}
+#pelayanan .serviceIcon               	{width:120px; height:120px; background:#008FD5; float:left; margin-right:20px;}
+#pelayanan .serviceContent            	{color:#333;}
+#pelayanan .serviceContent h2         	{margin-bottom:15px;}
+#pelayanan .serviceContent p          	{font:14px/24px "Arial"; color:#555;}
+#pelayanan .serviceContent a          	{color:#333;}
+#pelayanan .serviceContent a:hover    	{color:#008FD5;}
+
+
+/* Bagian data index/ kontak ================================================================================================ */
+/* Content */
+#content .subContent1					{width:100% !important; position:absolute; padding:0px; margin:auto; 
+										 z-index: 1000; top:0px; left:0; right:0; color:#FFF;}
+#content #container1					{width:100% !important; height:1100px; position:relative; padding:0px; max-width:1140px; 
+										 margin:0 auto;}
+		
+/* Isi content kontak ------------------------------------------------------------------------------------------------------- */
+/* Kiri */
+#content #container1 .contentLeft		{margin:auto; width:50%; height:100%; float:left; position:relative;}
+#content .judul							{width:auto; padding:5px 0 5px 10px; text-transform:uppercase; 
+										 font:bold 20px/30px "Arial"; color:#333; margin-bottom:30px; 
+										 border-left:3px solid #008FD5; margin:50px 0px 50px 0px;}
+#content .isi							{margin:auto; height:auto; width:100%; }
+#content .isi ul						{margin:0px 0px 0px 60px;}
+#content .isi li						{font:14px/24px "Arial"; color:#333;}
+#content .nama							{font:14px/24px "Arial"; color:#333; margin:15px 0px 0px 20px; display:block;}
+#content .txtNama						{font:14px/24px "Arial"; margin:0px 0px 0px 20px; padding:10px; float:none !important;}
+#content .btnKirim						{font:bold 14px/24px "Arial"; margin:20px 0px 0px 20px; padding:2px 30px 2px 30px; 
+										 float:none !important;
+										 border-radius:5px 5px 5px 5px;
+										 -webkit-border-radius:5px 5px 5px 5px;
+										 -moz-border-radius:5px 5px 5px 5px;
+										 -o-border-radius:5px 5px 5px 5px;
+										 -ms-border-radius:5px 5px 5px 5px;
+										 -webkit-transition:all 0.2s ease-in-out;
+                              			 -moz-transition:all 0.2s ease-in-out;
+                              			 -o-transition:all 0.2s ease-in-out;
+                              			 -ms-transition:all 0.2s ease-in-out;}
+#content .btnKirim:hover				{background:#008FD5; color:#FFF;}
+
+/* Kanan */
+#content #container1 .contentRight		{margin:auto; width:50%; height:100%; float:right; position:relative;}
+#content #container1 p					{margin:0px 15px 0px 20px; font:14px/24px "Arial"; color:#333;}
+
+/* Bagian XML */
+#content #container1 .karyawan			{font:14px/24px "Arial"; color:#333; margin-left:25px;}
+
+
+/* Isi content tentang kami ------------------------------------------------------------------------------------------------- */
+/* Profil Perusahaan */
+/* Kiri */
+#content #container1 .contentL			{margin:auto; width:70%; height:100%; float:left !important;}
+#content #container1 .contentL ul		{margin:auto; float:left !important;}
+#content #container1 .contentL img		{margin-left:20px;}
+#content #container1 .contentL .isi 
+		 .list							{margin:0px 0px 0px 60px !important;}
+/* Kanan */
+#content #container1 .contentR			{margin:auto; width:30%; height:100%; float:right !important;}
+#content #container1 .contentR .gbr		{margin:auto; height:150px; width:300px; background:#999; padding:0px;}
+#content #container1 .contentR 
+		 .bgContent						{margin:auto; height:200px; width:300px; float:right !important; background:#999;}
+#content #container1 .headTamu a:hover	{color:#008FD5; text-decoration:underline;}
+
+/* Tim Kami */
+#content #container1 .mq				{font:24px/24px "Arial"; margin-top:30px;}
+
+/* Isi content buku tamu ---------------------------------------------------------------------------------------------------- */
+#content #container1 .contentL 
+		 .headTamu						{display:block !important; float:left; margin:0px 20px 0px 20px;}
+#content #container1 .contentL 
+		 .headTamu p					{font:14px/24px "Arial";}
+#content #container1 .contentL 
+		 .isiTamu						{float:left; display:block; position:relative;}
+#content #container1 .contentL img		{margin-right:20px;}
+#content #container1 .contentL 
+		 .contentJDL					{margin:auto; height:30px; width:100%; border-bottom:solid 2px #008FD5;}
+#content #container1 .contentL 			
+		 .bgJDL							{margin:auto; height:100%; width:20%; background-color:#008FD5; float:left;
+		 								 text-align:center; font:14px/30px "Arial"; color:#FFF;}
+#content #container1 .contentL .tamu	{margin:auto; height:auto; width:80%; float:left;}
+#content #container1 .contentL .saya	{margin:auto; height:auto; width:80%; float:right;}
+#content #container1 .akun				{margin:20px 0px 0px 20px; font:14px/24px "Arial";}
+#content #container1 .akun a 			{color:#333}
+#content #container1 .akun a:hover 		{color:#008FD5; text-decoration:underline;}
+
+
+/* Bagian Portofolio ------------------------------------------------------------------------------------------------------ */
+/* Banner */
+#banner                          		{width: 100%; height: 170px; background-size: 100% 100%; 
+										 -webkit-text-stroke: 1px #FFF; text-shadow: -1px -1px 0px #FFF, 1px -1px 0px #FFF, 			 										 -1px 1px 0px #FFF, 1px 1px 0px #FFF; margin: 30px 0; color:#444;}
+#banner h1                              {text-transform: uppercase; font-size: 36px; position: relative; 
+										 top: 50px; left: 50px;}
+#banner h3                              {font-size: 18px; position: relative; top: 50px; left: 50px;}
+.banner-portfolio                       {background: url(../images/banner/banner1.jpg) 50% 50% no-repeat;}
+
+/* Content Tengah */
+#content #container1 .contentTengah		{margin:auto; height:auto; width:100%; padding:30px 0px 0px 0px;}
+#content #container1 .contentTengah li	{list-style:none;}
+#content #container1 .contentTengah 
+		 .headPort						{margin:auto; height:auto; width:100%;}
+#content #container1 .contentTengah 
+		 .contentPort					{margin:30px auto; height:525px; width:100%; 
+		 								 max-width: 1140px; min-width: 755px; overflow: hidden;}
+		 
+#content #container #portfolio          {width:100%; height:auto; list-style-type:none;}
+#content #container1 .contentTengah 
+		 .threecol						{margin-right:3.8%; float:left !important; min-height:1px; width: 22.15%;}
+#content #container1 .contentTengah 
+		 .threecol1						{margin-right:0px !important; float:left !important; min-height:1px; width: 22.15%;}
+
+#project-port                               { width: 100%; height: auto; margin-bottom: 20px; overflow: hidden; }		 
+#project .proj-img, #project-port .proj-img { width: 100%; height: auto; position: relative; overflow: hidden; }
+#project .proj-img img,
+#project-port .proj-img img                 { width: 100%; display: block; position: relative; 
+                                              -webkit-transition: all 0.2s linear;
+                                              -moz-transition: all 0.2s linear;
+                                              -o-transition: all 0.2s linear;
+                                              -ms-transition: all 0.2s linear;
+                                              transition: all 0.2s linear; }
+#project .proj-img .mask,
+#project-port .proj-img .mask               { width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden; 
+                                              -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0;
+                                              background-color: rgba(0,143,213, 0.7); 
+                                              -webkit-transition: all 0.4s ease-in-out;
+                                              -moz-transition: all 0.4s ease-in-out;
+                                              -o-transition: all 0.4s ease-in-out;
+                                              -ms-transition: all 0.4s ease-in-out;
+                                              transition: all 0.4s ease-in-out; }
+#project .proj-img .link                    { -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0;
+                                              margin: 47px auto 0 auto; display: block; width: 120px; height: 36px; line-height: 34px;
+                                              -webkit-transform: scale(10);
+                                              -moz-transform: scale(10);
+                                              -o-transform: scale(10);
+                                              -ms-transform: scale(10);
+                                              transform: scale(10);
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#project-port .proj-img .link               { -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0;
+                                              margin: 45px auto 0 auto; display: block; width: 120px; height: 36px; line-height: 34px;
+                                              -webkit-transform: translateX(-300px);
+                                              -moz-transform: translateX(-300px);
+                                              -o-transform: translateX(-300px);
+                                              -ms-transform: translateX(-300px);
+                                              transform: translateX(-300px);
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#project-port .proj-img .visit              { -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0;
+                                              margin: 15px auto 0 auto; display: block; width: 120px; height: 36px; line-height: 34px;
+                                              -webkit-transform: translateX(300px);
+                                              -moz-transform: translateX(300px);
+                                              -o-transform: translateX(300px);
+                                              -ms-transform: translateX(300px);
+                                              transform: translateX(300px);
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#project .proj-img .link img,
+#project-port .proj-img .link img,
+#project-port .proj-img .visit img          { width: 36px; height: 36px; float: left; margin-right: 10px; }
+#project .proj-img .link a,
+#project-port .proj-img .link a,
+#project-port .proj-img .visit a            { color: #FFF; font-size: 12px; font-weight: bold; }
+#project .proj-img .link a:hover,
+#project-port .proj-img .link a:hover,
+#project-port .proj-img .visit a:hover      {color: #111;}
+
+#project .proj-det                          {width: 100%; height: 90px; background-color: #333; margin-top: 0; padding-top: 0; 
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#project .proj-det a.title                  {color: #FFF; font-size: 14px; font-weight: bold; position: relative; top: 13px; left: 20px; 
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#project .proj-det h4                       {color: #FFF; font-size: 11px; font-weight: normal; position: relative; top: 22px; left: 20px; width: 200px; 
+                                              line-height: 16px; }
+#project-port .proj-det                     {width: 100%; height: 80px; background-color: #333; margin-top: 0; padding-top: 0; text-align: center; 
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#project-port .proj-det a.title             {color: #FFF; font-size: 14px; font-weight: bold; position: relative; top: 15px;
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#project-port .proj-det h4                  {color: #008FD5; font-size: 11px; font-weight: bold; position: relative; 
+											 top: 25px; 
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+                                              
+#project:hover .proj-img img,
+#project-port:hover .proj-img img           { -webkit-transform: scale(1.1,1.1);
+                                              -moz-transform: scale(1.1,1.1);
+                                              -o-transform: scale(1.1,1.1);
+                                              -ms-transform: scale(1.1,1.1);
+                                              transform: scale(1.1,1.1); }
+#project:hover .proj-img .mask,
+#project-port:hover .proj-img .mask         { -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1; }
+#project:hover .proj-img .link              { -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1;
+                                              -webkit-transform: scale(1);
+                                              -moz-transform: scale(1);
+                                              -o-transform: scale(1);
+                                              -ms-transform: scale(1);
+                                              transform: scale(1); } 
+#project-port:hover .proj-img .link,
+#project-port:hover .proj-img .visit        { -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1;
+                                              -webkit-transform: translateX(0px);
+                                              -moz-transform: translateX(0px);
+                                              -o-transform: translateX(0px);
+                                              -ms-transform: translateX(0px);
+                                              transform: translateX(0px); } 
+#project:hover .proj-det,
+#project-port:hover .proj-det               { background-color: #111; }
+#project:hover .proj-det a.title,
+#project-port:hover .proj-det a.title       { color: #008FD5; }
+#project-port:hover .proj-det h4            { color: #FFF; }
+
+/* Paging */
+#paging                                     { width: 100%; height: auto; margin: 50px 0 50px 0; padding-top: 20px; 
+											 border-top: 1px solid #008FD5; }
+#paging .page1                              { width: 70px; height: 40px; text-align: center; line-height: 40px; font-size: 12px; color: #FFF; float: left; 
+                                              background-color: #008FD5; margin-right: 5px; font-weight: bold; 
+                                              -webkit-transition: all 0.2s ease-in-out;
+                                              -moz-transition: all 0.2s ease-in-out;
+                                              -o-transition: all 0.2s ease-in-out;
+                                              -ms-transition: all 0.2s ease-in-out;
+                                              transition: all 0.2s ease-in-out; }
+#paging .page1:hover                     {background-color: #444;}
+#paging .page2                           {width: 40px; height: 40px; text-align: center; line-height: 40px; 
+										  font-size: 12px; color: #FFF; float: left; 
+                                          background-color: #008FD5; margin-right: 5px; font-weight: bold; 
+                                          -webkit-transition: all 0.2s ease-in-out;
+                                          -moz-transition: all 0.2s ease-in-out;
+                                          -o-transition: all 0.2s ease-in-out;
+                                          -ms-transition: all 0.2s ease-in-out;
+                                          transition: all 0.2s ease-in-out; }
+#paging .page2:hover                     { background-color: #555; }
+#paging .page-active                     { background-color: #444; }
+
+
+
+/* Bagian Pertemuan --------------------------------------------------------------------------------------------------------- */
+#content #container1 .contentPort 
+		 .temuLeft						{margin:auto; height:100%; width:60%; float:left;}
+#content #container1 .contentPort 
+		 .temuRight						{margin:auto; height:100%; width:40%; float:right;}
+		 
+#content #container1 .judul3			{margin:10px 20px 20px 20px !important;}
+#content #container1 .isi3				{padding-left:15px !important;}
+
+
+/* Bagian data lengkap ------------------------------------------------------------------------------------------------------ */
+/* Footer*/
+#footer									{height:auto; width:100%;}
+
+/* Sponsorship */
+#content .column1 .spJudulContent       {width:auto; height:30px; margin:10px 10px 30px 10px; 
+										 background:transparent url('../images/all/separator.png') 0 50% repeat-x; 
+                              			 text-align:center;}
+#content .column1 .spJudul 			  	{width:200px; height:30px; text-transform:uppercase; font:bold 22px/30px "Arial"; 			 										 color:#333; background:#FFF; margin:0 auto;}
+#content .column1 .spContent			{width: 170px; margin:0 10px 30px 10px; float: left; border: 2px solid #DDD; 
+										 -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;
+										 padding: 15px;}
+#content .column1 .spContent img		{width: 100%; height: auto;}
+
+/* Media Social*/
+#footer .mediaSocial					{height:auto; margin:auto; width:100%;}
+#footer .mediaSocial .media1			{height:300px; width:auto; background-color:#CCC; color:#FFF; 
+										 font:bold 12px/50px "Arial";}
+#footer .mediaSocial .followUs			{margin:auto; height:100%; width:60%; float:left;}
+#footer .mediaSocial .isiData			{margin:auto; height:100%; width:40%; float:right; color:#333;}
+#footer .mediaSocial .followUs li		{list-style:none; display:inline;}
+#footer .mediaSocial .followUs h2		{color:#333;}
+#footer .mediaSocial .followUs .name	{color:#333;}
+#footer .mediaSocial .followUs 
+					 .name:hover		{color:#008FD5;}
+#footer .mediaSocial .followUs .icon	{margin-left:10px;}
+#footer .mediaSocial .followUs 
+		.icon:hover						{opacity:0.5;}
+#footer .mediaSocial 
+		.hoverIcon:hover				{opacity:0.5;}
+		
+/* Isi Data */
+#footer .mediaSocial .kirim				{float:right; margin-right:35px; padding:7px 30px 7px 30px; 
+										 font:bold 14px "Arial";
+										 border-radius:5px 5px 5px 5px;
+										 -webkit-border-radius:5px 5px 5px 5px;
+										 -moz-border-radius:5px 5px 5px 5px;
+										 -o-border-radius:5px 5px 5px 5px;
+										 -ms-border-radius:5px 5px 5px 5px;
+										 -webkit-transition:all 0.2s ease-in-out;
+                              			 -moz-transition:all 0.2s ease-in-out;
+                              			 -o-transition:all 0.2s ease-in-out;
+                              			 -ms-transition:all 0.2s ease-in-out;}
+#footer .mediaSocial .kirim:hover		{background:#008FD5; color:#FFF;}
+
+/* Copyright / Hak Cipta */
+#footer .footerCopyright           		{height:50px; margin:auto; width:auto; background:#1C2D36; color:#FFF; 
+										 text-align:center; font:bold 12px/50px "Arial";}
+#footer .footerCopyright a				{color:#008FD5;}
+#footer .footerCopyright a:hover		{color:#999;}
+								 
+
+/* End Footer */
+#footer .slideTop                      	{width:40px; height:40px; position:fixed; bottom:5px; right:5px; 
+										 background:#008FD5 url('../images/all/arrow-top.png') 50% 50% no-repeat; 
+                              			 z-index:9999; cursor:pointer; display:none;}
+#footer .slideTop:hover					{opacity:0.5;}

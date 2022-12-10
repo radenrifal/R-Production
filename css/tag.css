@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Mencakup semua element */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p, blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,
+small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td                 
+							{border:0; margin:0; padding:0;}
+
+article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object    
+							{display:block;}
+a img                       {border:0;}
+figure                      {position:relative;}
+figure img                  {width:100%;}
+body                        {font:12px 'Arial'; min-width:320px;}
+a                           {text-decoration:none; 
+                             -webkit-transition:all 0.2s ease-in-out;
+                             -moz-transition:all 0.2s ease-in-out;
+                             -o-transition:all 0.2s ease-in-out;
+                             -ms-transition:all 0.2s ease-in-out;
+                             transition:all 0.2s ease-in-out;}
+a:hover                     {text-decoration:none;}
+label						{margin-left:10px; padding:0px;}
+input						{font:14px "Arial"; float:right; margin-right:35px; margin-top:15px; color:#333;}
